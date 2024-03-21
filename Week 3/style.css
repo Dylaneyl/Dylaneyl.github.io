@@ -1,0 +1,36 @@
+.my-colors {
+  color: chocolate;
+}
+* {
+  color: olivedrab;
+}
+
+h2 {
+  color: burlywood;
+}
+p {
+  color: gray;
+}
+p {
+  font-style: oblique;
+}
+
+#Instructor {
+  color: aquamarine;
+}
+/* }this is a comment */
+#first-para {
+  color: black;
+}
+[data-email="email"] {
+  color: rebeccapurple;
+}
+.my-colors {
+  padding: 10px;
+}
+li strong {
+  color: black;
+}
+li strong {
+  text-transform: uppercase;
+}
