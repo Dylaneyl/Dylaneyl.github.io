@@ -2,7 +2,7 @@
 
 body {
   background-color: #1a120b;
-  display: flex;
+  /* display: flex; */
   text-align: center;
   margin: auto;
   max-width: 1000px;
@@ -13,8 +13,17 @@ body {
   font-weight: 400;
   font-style: normal;
   /* color: #e5e5cb; */
-  color: #3c2a21;
+  color: #ffc2a4;
   font-size: 1.1rem;
+}
+header {
+  /* padding: 2rem 0; */
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 .outer {
@@ -44,7 +53,7 @@ a {
 #grid-container {
   border: 2px dashed #01e659;
   margin: 50px 0;
-  width: 500px;
+  width: 600px;
   min-height: 400px;
   padding: 10px;
   display: grid;
@@ -52,6 +61,7 @@ a {
   grid-template-columns: repeat(2, 1fr);
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   grid-template-rows: repeat(3, 1fr);
+  margin: auto;
 }
 
 #grid-container > * {
@@ -64,7 +74,11 @@ a {
     justify-self: center; */
 }
 #box1 {
-  background-color: limegreen;
+  background-color: rgb(133, 78, 1);
+  h1 {
+    color: #4d2aff;
+    font-size: larger;
+  }
   padding: 5px;
 }
 #box2 {
