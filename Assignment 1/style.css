@@ -1,20 +1,103 @@
 body {
-  border: 0.3rem solid black;
-  font-size: 1.2rem;
+  background-color: #321b0e;
+  /* display: flex; */
   text-align: center;
-  background-color: rgb(246, 203, 118);
-}
-h1 {
-  font-size: 3rem;
-  color: rgb(0, 0, 0);
-  font-weight: 900;
-  text-transform: uppercase;
-
-  font-family: "Madimi One", sans-serif;
+  margin: auto;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  /* color: #e5e5cb; */
+  color: #f4d2a9;
+  font-size: 1.1rem;
 }
-h2 {
-  color: rgb(171, 96, 3);
+header {
+  /* padding: 2rem 0; */
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
   font-size: 2rem;
+}
+p1 {
+  font-size: 1.5rem;
+  color: #dd851c;
+}
+
+.outer {
+  border: 2px dashed #e5e5cb;
+  width: 400px;
+  min-height: 200px;
+  padding: 10px;
+  display: flex;
+  gap: 1rem;
+}
+
+.inner {
+  background-color: #d5cea3;
+  width: 200px;
+  height: 100px;
+  margin: 10px auto;
+  border: 2px dotted #3c2a21;
+  padding: 10px;
+  /* line-height: 80px; */
+}
+
+a {
+  margin-right: 10px;
+  display: block;
+}
+
+#grid-container {
+  border: 2px dashed #ff7b00;
+  margin: 50px 0;
+  width: 600px;
+  min-height: 400px;
+  padding: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+}
+
+#grid-container > * {
+  width: 100%;
+  height: 100%;
+  /* width: 50px;
+    height: 50px;
+    justify-content: start; */
+  /* align-self: center;
+    justify-self: center; */
+}
+#box1 {
+  background-color: #a07864;
+  p {
+    color: #000000;
+  }
+  padding: 1rem;
+}
+#box2 {
+  background-color: #844c34;
+  padding: 1rem;
+  /* grid-column: 2/4; */
+}
+#box3 {
+  background-color: #844c34;
+}
+#box4 {
+  background-color: #a07864;
+  /* grid-column: 1/3;
+    grid-row: 2/5; */
+}
+#box5 {
+  background-color: #a07864;
+}
+#box6 {
+  background-color: #844c34;
 }
