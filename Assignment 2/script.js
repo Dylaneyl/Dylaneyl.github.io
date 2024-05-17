@@ -50,7 +50,7 @@ console.log(step1Button);
 step1Button.addEventListener("click", gotoStep1);
 
 function gotoStep1() {
-  myVideo.currentTime = 17.0;
+  myVideo.currentTime = 0.0;
 }
 
 const step2Button = document.querySelector("#step-2-button");
@@ -58,7 +58,7 @@ console.log(step2Button);
 step2Button.addEventListener("click", gotoStep2);
 
 function gotoStep2() {
-  myVideo.currentTime = 52.0;
+  myVideo.currentTime = 100.0;
 }
 
 myVideo.addEventListener("dblclick", goFullscreen);
