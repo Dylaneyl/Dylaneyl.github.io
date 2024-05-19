@@ -76,7 +76,7 @@ li {
     height: 150px; */
 }
 .outer {
-  border: 2px dashed #58f30568;
+  border: 2px groove #1eb1fb68;
   max-width: 900px;
   min-height: 200px;
   padding: 10px;
@@ -133,7 +133,7 @@ img {
 .video-controls button {
   width: 36px;
   height: 36px;
-  background-color: #d5cea3;
+  background-color: #fcadf4;
   border: none;
 }
 
@@ -170,4 +170,12 @@ img {
   background-color: coral;
   width: 0;
   transition: width 0.3s ease;
+}
+
+footer {
+  background-color: #1eb1fb68;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
 }

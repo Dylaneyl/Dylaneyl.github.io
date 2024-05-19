@@ -24,6 +24,9 @@ I have three sections
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
+  <!--
+    My decision to use the music video provided on canvas from digitaloceanspaces.com was driven by a number of factors, mainly relating to aesthetic and creative expression. By using a semantic colour palette for the media player, it allowed me to showcase the video’s psychedelic aesthetic throughout the website. The vibrant colours of purple, light blue, and pink were chosen to stand out against the background and establish the website’s theme for the user's first impression.
+-->
   <header>
     <h1>Media Player Website</h1>
   </header>
@@ -39,41 +42,44 @@ I have three sections
     <body>
       whats to come...
     </body>
+
+    <!--
+        I designed the website’s layout to complement the aesthetic of the music video. Following the header, I introduced a simple beige text which acts as a precursor to the images depicting what the user can expect to see in the music video. I considered various options such as adding a dotted box around the 'what's to come' text, however I ultimately decided to maintain the clean and simple look. Hopefully, this minimalist approach improves the readability and coherence of the interface, and effectively bridges the space between the header and images.
+
+    -->
     <main>
+      <!--
+            The six images found within two rows act as a preview section. I meticulously screenshot images that would offer an interesting glimpse into the narrative and aesthetic of the music video. Each image depicts key moments which builds anticipation among viewers and adds excitement to their first impression of the website.
+
+        -->
       <section class="portfolio">
+        <img src="Pimg.jpeg" alt="" />
+        <img src="Pimg2.jpeg" alt="" />
         <img
-          src="https://i.pravatar.cc/150?img=3
+          src="Pimg3.jpeg
           "
           alt=""
         />
         <img
-          src="https://i.pravatar.cc/150?img=8
+          src="Pimg4.jpeg
           "
           alt=""
         />
         <img
-          src="https://i.pravatar.cc/150?img=30
+          src="Pimg5.jpeg
           "
           alt=""
         />
         <img
-          src="https://i.pravatar.cc/200?img=45
-          "
-          alt=""
-        />
-        <img
-          src="https://i.pravatar.cc/150?img=12
-          "
-          alt=""
-        />
-        <img
-          src="https://i.pravatar.cc/200?img=27
+          src="Pimg6.jpeg
           "
           alt=""
         />
       </section>
     </main>
-
+    <!--
+    The implementation of video functionality is the main feature of the design. I had to ensure the user has a seamless experience when interacting with the media player by adding essential features such as pause, full screen, mute, and volume toggles. Users will have control over their viewing experience which increases their satisfaction and accessibility options. Additionally, I included a restart button to facilitate navigation for users who would like to begin the video again, and a climax button which presents as a way to access the peak of the music video. Both these options should enhance the viewing experience.
+-->
     <div class="outer">
       <section class="video-container">
         <video
@@ -135,11 +141,26 @@ I have three sections
       <section class="timeline">
         <button id="step-1-button">Restart</button>
         <button id="step-2-button">Climax</button>
+        <button id="like-btn">
+          <img
+            id="like-img"
+            src="https://img.icons8.com/ios-filled/50/facebook-like.png"
+            alt="Like Button"
+            width="24"
+            height="24"
+          />
+        </button>
+        <span>Total likes: <span id="likes"></span></span>
       </section>
     </div>
     <footer>
-      <a href="https://icons8.com/icon/61001/mute">Mute</a> icon by
-      <a href="https://icons8.com">Icons8</a>
+      <footer>
+        <p>&copy; 2024 Media Player Website. All rights reserved.</p>
+        <a href="https://icons8.com/icon/59862/play">Play</a> icon by
+        <a href="https://icons8.com">Icons8</a>
+        <a href="https://icons8.com/icon/61012/pause">Pause</a> icon by
+        <a href="https://icons8.com">Icons8</a>
+      </footer>
     </footer>
   </body>
 </html>

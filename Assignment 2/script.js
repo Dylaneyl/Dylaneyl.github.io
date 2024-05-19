@@ -103,3 +103,15 @@ myVideo.addEventListener("volumechange", updateVolume);
 function updateVolume() {
   console.log("current volume is", myVideo.volume);
 }
+let likeCount = 0;
+
+const likeButton = document.querySelector("#like-btn");
+console.log(likeButton);
+likeButton.addEventListener("click", addLikes);
+const likes = document.querySelector("#likes");
+likes.textContent = likeCount;
+
+function addLikes() {
+  likeCount++;
+  likes.textContent = likeCount;
+}
