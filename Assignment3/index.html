@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--The platform I have created using visual studio code is an AFL stats website which will allow users to discover and compare important statistics of their favourite Australian Rules Football team. This is a chance to showcase some interactive components which includes a hover feature and a drop down box.  
+I will then give reasoning as to why these features have been chosen and how they contribute in improving the user experience of people using this platform. The chosen team for this example will be Western Bulldogs football club.-->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dylan Neylon A2, Video Player</title>
+    <title>Dylan Neylon A3, AFL Stats</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,53 +16,51 @@
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
   </head>
-
+  <!--The first Interactive experience of the website is a drop down menu which allows users to change the team which stats will be shown. As there are 18 teams, the drop down menu shows a few options and an ‘All teams’ tab, which will expand it to cover the screen. 
+The use of a drop down menu hides information from the users when not interacting with it, which allows the home page to keep its simplistic aesthetic and reduce visual clutter. If I went with a traditional hierarchy at the top of the page to choose teams, the volume of options would overwhelm users and take away their attention from the information below.
+-->
   <header>
     <h1>AFL Stats</h1>
   </header>
   <body>
-    <button id="my-profile">My profile</button>
+    <button id="my-profile">Team (Western Bulldogs)</button>
     <div id="profile-content">
-      <a href="#">Settings</a>
-      <a href="#">Activity</a>
-      <a href="#">Sign out</a>
+      <a href="#">Adelaide Crows</a>
+      <a href="#">Brisbane Lions</a>
+      <a href="#">All teams</a>
     </div>
-
+    <!--The second interactive experience comes in the form of a hover animation when the user is hovering their mouse over a link. Feedback for users’ interactions are important as it establishes a satisfying experience and orientates their place within the page. The red animation contrasts well against the navy blue background and contributes to the hover prompt standing out when the user experiences it. I will explore the idea of changing the colour scheme of the background and hover animation to match the chosen team’s colours. This would allow for extra personalisation and establish an emotional connection between the user and website.
+-->
     <main>
       <section class="portfolio">
-        <img src="Pimg.jpeg" alt="" />
-        <img src="Pimg2.jpeg" alt="" />
-        <img
-          src="Pimg3.jpeg
-          "
-          alt=""
-        />
-        <img
-          src="Pimg4.jpeg
-          "
-          alt=""
-        />
-        <img
-          src="Pimg5.jpeg
-          "
-          alt=""
-        />
-        <img
-          src="Pimg6.jpeg
-          "
-          alt=""
-        />
+        <button id="hover-button">
+          <img src="Players.png" alt="Player" id="myImage" />
+        </button>
+        <button id="hover-button">
+          <img src="Goals.png" alt="Goals" id="myImage" />
+        </button>
+        <button id="hover-button">
+          <img src="Disposals.png" alt="Disposals" id="myImage" />
+        </button>
+        <button id="hover-button">
+          <img src="Injuries.png" alt="Injuries" id="myImage" />
+        </button>
+        <button id="hover-button">
+          <img src="Matchups.png" alt="Matchups" id="myImage" />
+        </button>
+        <button id="hover-button">
+          <img src="Other.png" alt="other" id="myImage" />
+        </button>
       </section>
     </main>
-
+    <!--
+The design choice to keep the platform simple with a minimalistic aesthetic was made for a number of reasons. The first, because an AFL website and app already exist so this platform needed a point of difference. Users don't have to mess around to get to the important information with this website, as it will be a quick and easy process for them. This will increase the retention rates and likelihood users come back when they need further statistics. The second design choice was to use relevant images for the statistic options with the hope that users will relate and recognise what each tab represents. Keep in mind these images are in relation to the Western Bulldogs football club and will be personalised depending on which team the user chooses within the drop down menu.
+-->
     <footer>
       <footer>
-        <p>&copy; 2024 Media Player Website. All rights reserved.</p>
-        <a href="https://icons8.com/icon/59862/play">Play</a> icon by
-        <a href="https://icons8.com">Icons8</a>
-        <a href="https://icons8.com/icon/61012/pause">Pause</a> icon by
-        <a href="https://icons8.com">Icons8</a>
+        <p>&copy; 2024 AFL stats website. All rights reserved.</p>
       </footer>
     </footer>
   </body>
-</html>
+  <!--Examples of other websites aligning with this context include the Kogan Website, Samsung website, and Netflix. All three of these websites use a hover technique where the user crosses over with their mouse. This is to showcase where the user is within the page and establish that user feedback mentioned earlier. All three of these websites also use the other interactive experience I’ve included within the design, A drop down menu. Kogan specifically uses their drop down menu to hide their large menus from the rest of the UI, and that inspired me to use the same tactic when designing the AFL stats website.
+--></html>

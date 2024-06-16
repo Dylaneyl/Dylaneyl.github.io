@@ -1,7 +1,7 @@
 /* https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb */
 
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(188, 188, 188);
   color: rgb(0, 0, 0);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 20px 0;
@@ -28,7 +28,7 @@ body {
   font-size: 1.1rem;
 }
 body button {
-  padding: 20px;
+  padding: 5px;
   text-align: right;
   margin-right: 10px;
   background-color: white;
@@ -37,7 +37,7 @@ body button {
   color: black;
 }
 body button:hover {
-  background-color: rgb(165, 160, 142);
+  background-color: rgb(255, 6, 6);
 }
 
 /* Dropdown content (hidden by default) */
